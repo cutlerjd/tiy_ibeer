@@ -41,7 +41,7 @@ img{
     */
 }
 #site-header{
-
+  /* THIS WORKS WITH NOTHING AND I DON'T KNOW WHY */
     /*
         TODO
         - Flexbox property here
@@ -83,6 +83,7 @@ img{
 #main-navigation{
     background: #444;
     display: flex;
+    /*THIS WORKS WITH NOTHING ADDED AND I DON'T KNOW WHY */
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -112,7 +113,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     flex-basis: 50%;
-    margin: -15px 0px 0px 0px;
+    margin: -50px 0px 0px 0px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -124,7 +125,7 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     flex-basis: 15%;
-    margin: -15px 0px 0px 0px;
+    margin: -50px 0px 0px 0px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -180,9 +181,11 @@ article footer p{
   padding: 10 0 0px 0;
   border-top: 1px solid #ccc;
   text-transform: uppercase;
-  line-height: 1em;
-  font-weight: bold;
+  font-size: 0.8em;
   text-align: center;
+  display: block;
+  margin-bottom: 30px;
+  color: #666;
   clear: both;
     /*
         TODO:
@@ -191,7 +194,12 @@ article footer p{
     */
 }
 #site-footer{
-
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 60px;
+  padding: 10px 20px;
+  text-align: center;
     background: #333;
     /*
         TODO:
