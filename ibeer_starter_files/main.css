@@ -167,6 +167,8 @@ article time{
 article img{
   float: right;
   width: 280px;
+  margin-left: 20px;
+  margin-bottom: 20px;
     /*
         TODO:
         - Float article images to the right
