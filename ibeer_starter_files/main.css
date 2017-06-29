@@ -41,7 +41,9 @@ img{
     */
 }
 #site-header{
-  /* THIS WORKS WITH NOTHING AND I DON'T KNOW WHY */
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
     /*
         TODO
         - Flexbox property here
@@ -83,7 +85,7 @@ img{
 #main-navigation{
     background: #444;
     display: flex;
-    /*THIS WORKS WITH NOTHING ADDED AND I DON'T KNOW WHY */
+
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -95,6 +97,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    margin: 5px;
     /*
         TODO:
         - Flexbox - Create general spacing between nav links
@@ -102,6 +105,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
+    padding: 10px 50px;
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
